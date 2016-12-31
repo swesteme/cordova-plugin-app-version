@@ -79,6 +79,10 @@ Can be used in combination with [cordova-custom-config](https://github.com/dpa99
     <platform name="windows">
         <preference name="ENVIRONMENT" value="DEVELOPMENT" />
     </platform>
+    
+    <platform name="browser">
+        <meta-data ENVIRONMENT="DEVELOPMENT"/>
+    </platform>
 ...
 ```
 
