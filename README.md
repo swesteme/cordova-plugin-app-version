@@ -93,3 +93,7 @@ Original code based on the following Stack Overflow posts:
 
 * [iOS](http://stackoverflow.com/a/14713364/3408)
 * [Android](http://stackoverflow.com/a/3637686/3408)
+
+## Update
+
+Kevin Iuretig merged two pull requests (browser platform support + getMetaData() feature)
