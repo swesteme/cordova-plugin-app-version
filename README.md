@@ -18,14 +18,6 @@ able to install with something like:
 
     plugman --platform <ios|android> --project <directory> --plugin https://github.com/whiteoctober/cordova-plugin-app-version.git
 
-### Manually in iOS
-
-TODO: Write these instructions
-
-### Manually in Android
-
-TODO: Write these instructions
-
 ## Use from Javascript
 
 If you are using jQuery, AngularJS, WinJS or any Promise/A library (Bluebird), promise style is supported. Use something like:
