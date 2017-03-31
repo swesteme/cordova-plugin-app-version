@@ -79,6 +79,10 @@ Can be used in combination with [cordova-custom-config](https://github.com/dpa99
     <platform name="windows">
         <preference name="ENVIRONMENT" value="DEVELOPMENT" />
     </platform>
+    
+    <platform name="browser">
+        <meta-data ENVIRONMENT="DEVELOPMENT"/>
+    </platform>
 ...
 ```
 
@@ -93,3 +97,7 @@ Original code based on the following Stack Overflow posts:
 
 * [iOS](http://stackoverflow.com/a/14713364/3408)
 * [Android](http://stackoverflow.com/a/3637686/3408)
+
+## Update
+
+Kevin Iuretig merged two pull requests (browser platform support + getMetaData() feature)
