@@ -18,14 +18,6 @@ able to install with something like:
 
     plugman --platform <ios|android> --project <directory> --plugin https://github.com/whiteoctober/cordova-plugin-app-version.git
 
-### Manually in iOS
-
-TODO: Write these instructions
-
-### Manually in Android
-
-TODO: Write these instructions
-
 ## Use from Javascript
 
 If you are using jQuery, AngularJS, WinJS or any Promise/A library (Bluebird), promise style is supported. Use something like:
@@ -79,6 +71,10 @@ Can be used in combination with [cordova-custom-config](https://github.com/dpa99
     <platform name="windows">
         <preference name="ENVIRONMENT" value="DEVELOPMENT" />
     </platform>
+    
+    <platform name="browser">
+        <meta-data ENVIRONMENT="DEVELOPMENT"/>
+    </platform>
 ...
 ```
 
@@ -93,3 +89,7 @@ Original code based on the following Stack Overflow posts:
 
 * [iOS](http://stackoverflow.com/a/14713364/3408)
 * [Android](http://stackoverflow.com/a/3637686/3408)
+
+## Update
+
+Kevin Iuretig merged two pull requests (browser platform support + getMetaData() feature)
